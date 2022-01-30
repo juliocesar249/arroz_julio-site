@@ -1,16 +1,22 @@
 .cabecalho {
-    background: #C7CBCF;
-    display: flex;
     align-items: center;
+    background: #C7CBCF;
+    border-bottom: solid 4px #535353;
+    display: flex;
     justify-content: space-around;
     padding: 28px 20px;
-    border-bottom: solid 4px #535353;
+    position: sticky;
 }
 
 .cabecalho_imagem {
-    width: 125px;
+    background-image: url('../img/channels4_profile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #FFF;
+    width: 125px;
+    height: 125px;
 }
 
 .navbar_header-ul {
@@ -18,8 +24,8 @@
 }
 
 .navbar_header-li {
-    font-size: 28px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.75rem;
     margin-left: 12px;
 }
 
@@ -28,7 +34,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #2e77bb;
+}
+
 .navbar_header-li-ativo {
-    color: #0083FD;
     border-bottom: solid #0083FD 3px;
+    color: #0083FD;
 }

@@ -2,12 +2,14 @@
     align-items: center;
     background: #C7CBCF;
     border-top: solid 4px #535353;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.3rem;
     height: 173px;
     justify-content: space-between;
+    position: absolute;
     width: 100%;
 }
 
